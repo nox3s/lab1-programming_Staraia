@@ -2,7 +2,7 @@
 #include <string>
 #include <windows.h>
 using namespace std;
-int main() {
+/*int main() {
     SetConsoleOutputCP(CP_UTF8); 
     // Вывод приветствия
     cout << "Hello, World!" << endl;
@@ -12,13 +12,14 @@ int main() {
     // Вывод даты 
     cout << "Дата: 2026-09-10" << endl;
     return 0;
-}
+}*/
 
 // Функция вычисления квадрата числа
 auto square(int x) -> int {
     return x * x;
 }
 int main() {
+    SetConsoleOutputCP(CP_UTF8); 
     // Униформ-инициализация
     auto number{7};
     // Вызов функции
